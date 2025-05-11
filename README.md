@@ -1,4 +1,4 @@
-# SpotMicroBot Project
+# SpotMicro-Inspired Quadruped Robot AI Club UIT
 
 ## Overview
 
@@ -33,6 +33,33 @@ We implemented inverse kinematics (IK) for precise leg control, calculating join
 ## Virtual Environment - Genesis
 
 Genesis was used as a virtual environment for training and testing, providing a safe and efficient platform for optimizing the robot's navigation algorithms and refining its control strategies.
+
+## Future Development
+
+### Enhanced Autonomous Navigation
+
+* Implementing LiDAR and camera integration for improved perception and obstacle detection.
+* Developing advanced reinforcement learning (RL) algorithms for efficient and adaptive autonomous navigation.
+* Using the Genesis virtual environment to train and test the navigation model, ensuring safe and efficient learning.
+
+### Computer Vision Capabilities
+
+* Utilizing the camera for computer vision (CV) tasks, including object recognition, obstacle avoidance, and terrain analysis.
+* Integrating deep learning models for real-time CV processing on Jetson Nano, leveraging its GPU acceleration.
+
+### System Optimization
+
+* Enhancing the inverse kinematics (IK) system for more precise and adaptive leg control.
+* Further calibrating the custom 3D-printed parts for improved structural integrity and performance.
+* Streamlining the ROS architecture for better resource management and lower latency.
+
+### User Interface and Control
+
+* Developing a user-friendly control interface for manual and autonomous modes.
+* Enabling remote monitoring and control through a web interface or mobile app.
+
+These developments aim to make SpotMicroBot a versatile, intelligent, and adaptable quadruped robot suitable for a wide range of applications.
+
 
 ## Citation
 
