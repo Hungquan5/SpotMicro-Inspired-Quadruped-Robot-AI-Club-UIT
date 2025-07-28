@@ -1,1 +1,9 @@
+
+# Ignore Python bytecode cache
+__pycache__/
+**/__pycache__/
+
+# Ignore all .zip files
 *.zip
+
+pure_rl_training/tensorboard_logs
