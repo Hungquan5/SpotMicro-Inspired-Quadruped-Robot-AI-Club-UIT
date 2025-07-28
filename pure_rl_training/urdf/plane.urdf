@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<robot name="simple_plane">
+  <link name="plane_link">
+    <inertial>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0"
+               iyy="0" iyz="0"
+               izz="0"/>
+      <origin xyz="0 0 0" />
+    </inertial>
+
+    <collision>
+      <geometry>
+        <plane normal="0 0 1" />
+      </geometry>
+      <origin xyz="0 0 0" />
+    </collision>
+
+    <visual>
+      <geometry>
+        <plane normal="0 0 1" />
+      </geometry>
+      <origin xyz="0 0 0" />
+      <material name="gray">
+        <color rgba="0.6 0.6 0.6 1"/>
+      </material>
+    </visual>
+  </link>
+</robot>

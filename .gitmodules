@@ -1,0 +1,3 @@
+[submodule "simulation"]
+	path = simulation
+	url = https://gitlab.com/public-open-source/spotmicroai/simulation/-/tree/master/Basic%20simulation%20by%20user%20Florian%20Wilk?ref_type=heads
