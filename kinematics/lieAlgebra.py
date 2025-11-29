@@ -18,7 +18,7 @@ def RpToTrans(R, p):
         R = np.array([[1, 0,  0],
                       [0, 0, -1],
                       [0, 1,  0]])
-        p = np.array([1, 2, 5]) 
+        p = np.array([1, 2, 5])
 
     Output:
         np.array([[1, 0,  0, 1],

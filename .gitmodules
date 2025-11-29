@@ -1,3 +1,9 @@
 [submodule "simulation"]
 	path = simulation
-	url = https://gitlab.com/public-open-source/spotmicroai/simulation/-/tree/master/Basic%20simulation%20by%20user%20Florian%20Wilk?ref_type=heads
+	url = https://gitlab.com/public-open-source/spotmicroai/simulation.git
+[submodule "3dprinting"]
+	path = 3dprinting
+	url = https://gitlab.com/public-open-source/spotmicroai/3dprinting.git
+[submodule "spot_mini_mini"]
+	path = spot_mini_mini
+	url = https://github.com/OpenQuadruped/spot_mini_mini.git

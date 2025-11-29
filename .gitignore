@@ -7,3 +7,4 @@ __pycache__/
 *.zip
 
 pure_rl_training/tensorboard_logs
+*.mp4
